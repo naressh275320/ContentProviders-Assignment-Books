@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/floaral_white">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Details"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/lavander"/>
+
+    <EditText
+        android:id="@+id/text0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/textview"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your employee id: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/text0"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your designsation: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/text1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your salary: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/text2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:layout_alignTop="@id/text3"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="load"
+        android:layout_alignTop="@id/b1"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/b2"
+        android:layout_marginTop="75dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
