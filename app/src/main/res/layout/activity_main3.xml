@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ntextview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Details"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/lavander"/>
+
+    <EditText
+        android:id="@+id/nbookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book name: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/ntextview"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/nid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the book id: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/nbookName"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/nAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the author name: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/nid"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/nyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter year of publication: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/nAuthor"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/nUpdate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_alignTop="@id/nyear"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/nDelete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_alignTop="@id/nUpdate"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

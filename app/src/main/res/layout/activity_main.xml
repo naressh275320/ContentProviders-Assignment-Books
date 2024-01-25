@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/floaral_white">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Details"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/lavander"/>
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book name: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/textview"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the book id: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/bookName"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/Author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the author name: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/id"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter year of publication: "
+        android:padding="8dp"
+        android:layout_alignTop="@id/Author"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/Upload"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_alignTop="@id/year"
+        android:layout_marginTop="75dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/Load"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        android:layout_alignTop="@id/Upload"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+    />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/Load"
+        android:layout_marginTop="75dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
